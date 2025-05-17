@@ -1,0 +1,15 @@
+.odd-elements,.third-element{
+    background-color:#ffc0cb;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#two-id{
+    background-color:#0000ff;
+    font-size: 36px;
+}
+.third-element,#forth-id{
+    font-size:24px;
+}
+#forth-id{
+    background-color:#008000;
+    font-weight: bold;
+}

@@ -14,8 +14,16 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.header{
+  font-weight:bold;
+}
+.text{
+  margin-bottom:5px;
+}
 .modal {
+  padding:10px;
+  gap:10px;
+  display:flex;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -30,11 +38,15 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
+  flex-shrink:0;
+  display:flex;
   align-items: center;
   justify-content: center;
 }
-
+.question-container{
+  display:flex;
+  justify-content:space-between;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
